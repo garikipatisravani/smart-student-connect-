@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Team_members">86ed6d7b836c4310642e6170deaad3f4</application>
+        <filter/>
+        <name>Team_members</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1764468_smart_0.team_members_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 09:21:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4eedad7b836c4310642e6170deaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team_members</sys_name>
+        <sys_package display_value="smart student connect portal" source="x_1764468_smart_0">1fbba5f3836c4310642e6170deaad371</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope>
+        <sys_update_name>sys_ui_module_4eedad7b836c4310642e6170deaad304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 09:21:06</sys_updated_on>
+        <table>x_1764468_smart_0_team_members</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</application>
+        <file_path/>
+        <instance_id>9986995c3bb7c618c55a348aa4e45a84</instance_id>
+        <instance_name>dev283690</instance_name>
+        <name>sys_ui_module_4eedad7b836c4310642e6170deaad304</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Team_members">86ed6d7b836c4310642e6170deaad3f4</application><filter/><name>Team_members</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1764468_smart_0.team_members_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-06 09:21:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4eedad7b836c4310642e6170deaad304</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Team_members</sys_name><sys_package display_value="smart student connect portal" source="x_1764468_smart_0">1fbba5f3836c4310642e6170deaad371</sys_package><sys_policy/><sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope><sys_update_name>sys_ui_module_4eedad7b836c4310642e6170deaad304</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-06 09:21:06</sys_updated_on><table>x_1764468_smart_0_team_members</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1773001193</payload_hash>
+        <record_name>Team_members</record_name>
+        <reverted_from/>
+        <source>9fbba5f3836c4310642e6170deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 09:21:06</sys_created_on>
+        <sys_id>06edad7b836c4310642e6170deaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dfc97492b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 09:21:06</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c2edad7be96c43102940b83a92c6c307</update_guid>
+        <update_guid_history>c2edad7be96c43102940b83a92c6c307:-1773001193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 09:22:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>2f9321d28f4f494899c9a003537c6124</sys_id>
+        <sys_metadata>4eedad7b836c4310642e6170deaad304</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team_members</sys_name>
+        <sys_package display_value="smart student connect portal" source="x_1764468_smart_0">1fbba5f3836c4310642e6170deaad371</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope>
+        <sys_scope_delete display_value="">08d6d1c7b01f4f5884cd287781e51710</sys_scope_delete>
+        <sys_update_name>sys_ui_module_4eedad7b836c4310642e6170deaad304</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_4eedad7b836c4310642e6170deaad304">06edad7b836c4310642e6170deaad308</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 09:22:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

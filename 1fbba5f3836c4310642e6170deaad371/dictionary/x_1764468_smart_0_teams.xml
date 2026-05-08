@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="901c6537836c4310642e6170deaad319" label="Teams" max_length="40" name="x_1764468_smart_0_teams" type="collection">
+        <element label="Max_Members" max_length="40" name="max_members" type="integer"/>
+        <element label="Team_name" mandatory="true" max_length="100" name="team_name" type="string"/>
+        <element label="Event" max_length="32" name="event" reference="x_1764468_smart_0_events" type="reference"/>
+        <element label="Current_members" max_length="40" name="current_members" type="integer"/>
+        <element label="Leader" max_length="32" name="leader" reference="x_1764468_smart_0_student_profile" type="reference"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="leader"/>
+        </index>
+    </element>
+</database>

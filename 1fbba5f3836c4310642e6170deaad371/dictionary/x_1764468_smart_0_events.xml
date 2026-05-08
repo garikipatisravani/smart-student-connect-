@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="445c2577836c4310642e6170deaad3e7" label="Events" max_length="40" name="x_1764468_smart_0_events" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="End_date" max_length="40" name="u_glide_date_5" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Organized By" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Tech fests" sequence="5" value="tech fests"/>
+                <element inactive_on_update="false" label="Blood donation camps" sequence="3" value="blood donation camps"/>
+                <element inactive_on_update="false" label="hackathon" sequence="0" value="hackatho"/>
+                <element inactive_on_update="false" label="club activities" sequence="4" value="club activities"/>
+                <element inactive_on_update="false" label="community services" sequence="1" value="community services"/>
+                <element inactive="true" inactive_on_update="true" label="cultural" sequence="0" value="cultural"/>
+                <element inactive_on_update="false" label="sports" sequence="2" value="sports"/>
+                <element inactive_on_update="false" label="Workshop" sequence="6" value="workshop"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="start_date" max_length="40" name="u_glide_date_4" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Max_teams" max_length="40" name="u_string_7" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Event_name" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Mode" max_length="40" name="u_choice_8" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Online" sequence="1" value="online"/>
+                <element inactive_on_update="false" label="Offline" sequence="0" value="offline"/>
+            </choice>
+        </element>
+    </element>
+</database>

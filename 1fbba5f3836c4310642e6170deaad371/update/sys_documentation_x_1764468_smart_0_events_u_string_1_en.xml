@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_string_1" label="Event_name" language="en" table="x_1764468_smart_0_events">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <help/>
+            <hint/>
+            <label>Event_name</label>
+            <language>en</language>
+            <name>x_1764468_smart_0_events</name>
+            <plural>Event_names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-06 09:35:19</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Event_name</sys_name>
+            <sys_package display_value="smart student connect portal" source="x_1764468_smart_0">1fbba5f3836c4310642e6170deaad371</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope>
+            <sys_update_name>sys_documentation_x_1764468_smart_0_events_u_string_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-06 09:35:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

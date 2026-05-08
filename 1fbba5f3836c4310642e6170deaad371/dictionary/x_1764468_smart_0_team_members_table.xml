@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="426fa5bf836c4310642e6170deaad3d8" label="Team_members_table" max_length="40" name="x_1764468_smart_0_team_members_table" type="collection">
+        <element choice="1" label="Role" max_length="40" name="role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Leader" value="100"/>
+                <element inactive_on_update="false" label="Member" value="200"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="200"/>
+                <element inactive_on_update="false" label="Pending" value="100"/>
+            </choice>
+        </element>
+        <element label="Student" max_length="32" name="student" reference="x_1764468_smart_0_student_profile" type="reference"/>
+        <element label="Team" max_length="32" name="team" reference="x_1764468_smart_0_teams" type="reference"/>
+        <index name="index">
+            <element name="student"/>
+        </index>
+        <index name="index2">
+            <element name="team"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>internship_application_flow</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Application_table Record","reference":"x_1764468_smart_0_application_table","reference_display":"Application_table","type":"reference","base_type":"reference","usedInstances":{"afdfa083-abf1-4def-b658-741dcc30a370":["record"]},"attributes":{}},{"name":"Created_1.current.student","label":"Trigger - Record Created➛Application_table Record➛Student","reference":"x_1764468_smart_0_student_profile","reference_display":"Student","type":"reference","base_type":"reference","parent_table_name":"x_1764468_smart_0_application_table","column_name":"student","usedInstances":{"afdfa083-abf1-4def-b658-741dcc30a370":["record"]}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>a</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 10:08:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95a835b783ec4310642e6170deaad35a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="smart student connect portal" source="x_1764468_smart_0">1fbba5f3836c4310642e6170deaad371</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope>
+        <sys_update_name>sys_hub_flow_95a835b783ec4310642e6170deaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 16:34:11</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>0c019bbf83688310642e6170deaad330</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=95a835b783ec4310642e6170deaad35a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=95a835b783ec4310642e6170deaad35a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=95a835b783ec4310642e6170deaad35a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=95a835b783ec4310642e6170deaad35a^sys_idNOT IN15a835b783ec4310642e6170deaad35b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>95a835b783ec4310642e6170deaad35a</id>
+        <name>Internship application flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 10:08:01</sys_created_on>
+        <sys_id>15a835b783ec4310642e6170deaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 10:08:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=15a835b783ec4310642e6170deaad35b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=95a835b783ec4310642e6170deaad35a^sys_idNOT IN38c839b783ec4310642e6170deaad3d2,3cc839b783ec4310642e6170deaad3f3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="a">95a835b783ec4310642e6170deaad35a</model>
+        <model_id>95a835b783ec4310642e6170deaad35a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_95a835b783ec4310642e6170deaad35a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 10:08:31</sys_created_on>
+        <sys_id>38c839b783ec4310642e6170deaad3d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 16:31:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=38c839b783ec4310642e6170deaad3d2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="a">95a835b783ec4310642e6170deaad35a</model>
+        <model_id>95a835b783ec4310642e6170deaad35a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_95a835b783ec4310642e6170deaad35a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 10:08:32</sys_created_on>
+        <sys_id>3cc839b783ec4310642e6170deaad3f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 16:31:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3cc839b783ec4310642e6170deaad3f3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=95a835b783ec4310642e6170deaad35a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=95a835b783ec4310642e6170deaad35a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=95a835b783ec4310642e6170deaad35a^sys_idNOT INa8c8f57783ec4310642e6170deaad38a"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="a">95a835b783ec4310642e6170deaad35a</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 10:08:30</sys_created_on>
+        <sys_id>a8c8f57783ec4310642e6170deaad38a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 16:31:39</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY2W7jNhT9FUFPHcAFtHjNW8bJoAHSBLU97UOQCpRE2kRpypUoJZ5B/r2X2ixrcbzIqfMSwCTFe+7hueeSefqpMmRjpl6pM2QzrHZUygX2OWKz9QrDsJDDFkdLObdE3EXC89fqlfBD3FGJ7y1neLliSMBiglgAg57vYl+90jtqhFiIp+vgzoWd4Pt4m3RPNZ2G36+WPuh3u/2hFSyRLyzNQqsVow4S1ONWttqlAcRZ/5l+dF2zxFlQ5vqYq1dPzx11hXyIJySWn6UpAclZW5krD0mKVEJ1iINGBtYcUzcNQ9OMYVe3+6atG66JsKbBujJtpdREDXsbXvCrwNzFbk5ZhVgfI/eRs3W+YgHnkpC4RK8B/QG7DzW5jmDIysHJXP7TStlKhp2FRx38uJJkJSMJzmTSY+GSPyT4Jc+YoJCJjGcYCQPYD68kZAkiRUSmC+9lkgX8RnmcXTrJPAex/BcSwqd2KHAgj4JQBoeSHJoVeKEfo5/cjh8nN9Zf17Pxb7cTa3I7nU3uxrPbG/Utzsv6N5Q7JghTLFaSzlsujm8UM3mAwTqw4CQ7auD4dCWuHUGjTKBvnY3oxx53acxKRfhONhVsCz/LfpfyNa1R+04hYqb/v2//qOo7GTxO0eMi9ljR/T5CLkYNirZJQdFFTmpAixp6innv0nY6so+4u5r2P8k7dbZj1b30XMxuNtupMDmfg94pX4VCsvWCuAgs4VnIda0Cj3IpYHpP7klub+9q2w85fGDl51FVeExbzt89DQDuE9Rnxk28JcyT+3TLScgVDw4O/ihO6AM1Qskcj9wt0TxllEwxw44oiIB8D4q/fqdBQPm8gDoPGnNQiZmHAzEpWUpJ7ODE4M9tlneV9KhEZqnMj6/x7PTi+tZ1QmxMDG0gq1vXTJvo2kDrIeKamuYYhfquQmzELkpCOUudH1blQSxRtocgy8Sn4LVijewlrmhbmRkJUjipmYzbgaa3BM2Q0EqmaB7kirlYk+Gbbc3uSq3luwJyIwRfuPua456+SJj3AoZ8hCfayPln7nshd8smJfdUKFc2K5RfUv6+tOiPxPPxbgDbKy7JGTe0Z8JFfH02TzSJbo9wF2tghSa4oN0bjWwHGYQM+gNs6CVP3ICrRfwpvPAdDUZ1Im7yxVo5RXUqPMARTwBYcceDAZ7ui6lca10xmfsc/veywNwCqL7FpMNVbHDOqIuzuXY9oBI62lR9Wz5wnyYlo5PhyOnpg4EzgFcPuADpYhvpXaOHRoO+OeyVXKACbxd0UcPWh7yF5PtWAmlwiO/J1GU9+88p5QALIRvX4f2cw403/gYlQQo9VR6LEhuN5ysPHv/1brNOmWJolfGDuK3Gvg8KebDKeWHYnlhUbhYQ+iuMb4WWN9IGVi7uSVYSSbSd65meZLg77I2IWW88ZFRnPBuIzeAv/iKyZ91EjRVYdyPZtwyi2mpqvEIcIeySeIp3ix2Xn7ZI0VsnxTgfKebJF66sQhvfoceA/USNLb5tnNLdZExseaRo6TeeAhMKBFEoUdL/T2JXsdeKWGCglMHNGgIqMvqpXl7sLVUouYI/FkhyV6/0OBhW0mvV5bWvkhQ+4gWN3QHq9cyGu/Oo/IKug/lOFhffzA6ulaiu9HZ2tMP2Le9Z29MKQt7WyZ7dqtWs61vWaVnXNq33sj69He16/9eguNBG8/wfDWru4PcfAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=95a835b783ec4310642e6170deaad35a^sys_idNOT IN0099713b83ec4310642e6170deaad3f3"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="a">95a835b783ec4310642e6170deaad35a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 10:12:02</sys_created_on>
+        <sys_id>0099713b83ec4310642e6170deaad3f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 16:31:39</sys_updated_on>
+        <ui_id>afdfa083-abf1-4def-b658-741dcc30a370</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1X32/TMBD+V6w8VyX9lbZ7A6aJSWxIrIKHCUWO7TQGJw62s64g/nfOidM0K8uqFaoh9TFn3913d993SW5/epx6Z96Yzvwgisd46o+GI9+fDefzaDSP/dl07g8I9XpehlMGNxUjUtnnOywKa7gPB9NgPA5moU6xMqEfalNQlpkwVzLmgsFdynUu8PqTcwELSbigimXe2e2XnpdjBdENU97ZzwdHZp2zUOCICXA8l6RIITS6PIcY+yKvvRdYLZlBH+sKHlZkU8EzdUlCbo1wZGH5PY/dG5ZRBkljLDTreSnOKDZSrTcWxTD9kInGkPDMQMjXWkvCsWEamYQhlmIu0IqbBGFUpe97Nt695j8AwmhoQ8UMmkAsIp4RbjvqbZlD11M4vmyOSSI5YR9yw2VWNdrgSNQ9l6JIs+uqajsVFuNCmK2pFBristyWaXEbVUAN8U0iVx/rvBc8KxviChSSYLF5wsYoHhVQZzlIwbBq4oUlJBsTMjHByh6nOM95trRcueNlYICZ9pcCHvqxkCvw13yZ9TGxNfWh4bh/Afbz0vwJK24LvIIw4PyrbFD4vbCYqhLbye3dsJw7XNVE8dy8hsB3zJXwq+cEMZh30YqOG/psxTxIFDfVhWdrY2FxoOsKx741tJwfqcnJomVzqhgcpIoFSMFUmqxEgIyDsVHCzG8r4REF/HXmO6DPpv6/oTfMVYcVa11tZfInaf8U2f0giKIgmkxHDVHmJKbTKA7wlIwaYqxghylg9Lew3GFbjB/sMtpJ/Zl0BudXF2V5vb1R1s6wEQWoCX2u4XZV4PgdSQn7KmvIPTyI3BUTkZEIZifWsOg3ma2xeQ2YBBvENdIwrj5aSMQd+C2PHlrLAqWFNnDNwElLNq13x/goinGjddbzP879v5DUodKZdO9Y3BAPJ6GRW4L5i59FN9CnbFnrZA9IG5HJXXxODrqO6dQw6lZD9amwI4atRe6fVnlrlVMmeMrL4VaKOZSKtHPuzG+NmpBjUHEPSLXj27e7+B6h4vh5i/nExeNxcdD5V8aC1qyj45BxD0y145sHbIy66Dg50fGl03HSPXrSGrYuoq+MmKO8qp/GtXHcoPoT0keoGZxe2i/pYxF3jjsetneOpOt/w8F3i6v3NQP3gLRZihWgHYSOe4lJRcO86YFLMZhMRsGJe9tbMV/RIVUyz11tB23GL78BDtgsEfoVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0099713b83ec4310642e6170deaad3f3"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=95a835b783ec4310642e6170deaad35a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=95a835b783ec4310642e6170deaad35a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=95a835b783ec4310642e6170deaad35a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=95a835b783ec4310642e6170deaad35a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_95a835b783ec4310642e6170deaad35a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 10:08:31</sys_created_on>
+        <sys_id>7cc839b783ec4310642e6170deaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="smart student connect portal" source="x_1764468_smart_0">1fbba5f3836c4310642e6170deaad371</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 10:08:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_95a835b783ec4310642e6170deaad35a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-06 10:08:32</sys_created_on>
+        <sys_id>f8c839b783ec4310642e6170deaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="smart student connect portal" source="x_1764468_smart_0">1fbba5f3836c4310642e6170deaad371</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-06 10:08:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_95a835b783ec4310642e6170deaad35a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_95a835b783ec4310642e6170deaad35a"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=95a835b783ec4310642e6170deaad35a"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=95a835b783ec4310642e6170deaad35a"/>
+</record_update>

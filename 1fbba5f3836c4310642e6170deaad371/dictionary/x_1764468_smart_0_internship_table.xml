@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="34d13d3783ac4310642e6170deaad3f8" label="Internship_table" max_length="40" name="x_1764468_smart_0_internship_table" type="collection">
+        <element label="Dead_line" max_length="40" name="dead_line" type="glide_date"/>
+        <element choice="2" label="Posted_by" max_length="32" name="posted_by" reference="sys_user" type="reference">
+            <choice/>
+        </element>
+        <element label="Required_skills" max_length="50" name="required_skills" type="string"/>
+        <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
+        <element label="Apply_link" max_length="1024" name="apply_link" type="url"/>
+        <element label="Company" max_length="50" name="company" type="string"/>
+        <element label="Role" max_length="50" name="role" type="string"/>
+        <index name="index">
+            <element name="posted_by"/>
+        </index>
+    </element>
+</database>

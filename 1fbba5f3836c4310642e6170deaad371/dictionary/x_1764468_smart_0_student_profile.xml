@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="422cadf3836c4310642e6170deaad3f4" label="student profile " max_length="40" name="x_1764468_smart_0_student_profile" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Skills" max_length="255" name="u_string_full_utf8_6" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll Number" max_length="40" name="u_string_3" type="string"/>
+        <element label="git hub" max_length="40" name="git_hub" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AGRI" sequence="7" value="agri"/>
+                <element inactive_on_update="false" label="AIML" sequence="1" value="aiml"/>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="IT" sequence="5" value="it"/>
+                <element inactive_on_update="false" label="ECE" sequence="3" value="ece"/>
+                <element inactive_on_update="false" label="IOT" sequence="4" value="iot"/>
+                <element inactive_on_update="false" label="DS" sequence="2" value="ds"/>
+                <element inactive_on_update="false" label="MECH" sequence="6" value="mech"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Year" max_length="40" name="u_string_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="4 th year" sequence="3" value="4 th year"/>
+                <element inactive_on_update="false" label="2 nd year" sequence="1" value="2 nd year"/>
+                <element inactive_on_update="false" label="1 st year" sequence="0" value="1 st year"/>
+                <element inactive_on_update="false" label="3 rd year" sequence="2" value="3 rd year"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Interests" max_length="40" name="u_string_7" type="string"/>
+        <element label="Resume attachment" max_length="40" name="u_file_attachment_8" type="file_attachment"/>
+    </element>
+</database>
