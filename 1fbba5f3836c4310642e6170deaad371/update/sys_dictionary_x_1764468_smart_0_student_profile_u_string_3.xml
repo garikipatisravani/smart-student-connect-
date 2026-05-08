@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1764468_smart_0_student_profile</name>
@@ -53,7 +53,7 @@
         <sys_scope display_value="smart student connect portal">1fbba5f3836c4310642e6170deaad371</sys_scope>
         <sys_update_name>sys_dictionary_x_1764468_smart_0_student_profile_u_string_3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-07 05:09:47</sys_updated_on>
+        <sys_updated_on>2026-05-08 15:57:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="422cadf3836c4310642e6170deaad3f4" label="student profile " max_length="40" name="x_1764468_smart_0_student_profile" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Skills" max_length="255" name="u_string_full_utf8_6" type="string_full_utf8"/>
-        <element attributes="edge_encryption_enabled=true" label="Roll Number" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll Number" max_length="40" name="u_string_3" type="integer"/>
         <element label="git hub" max_length="40" name="git_hub" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_string_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_string_4" type="string"/>
